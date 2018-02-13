@@ -2,7 +2,8 @@
 
 Jhon Sidney
 
-Antes de executarmos os codigos utilizaremos a versão do python3 e o Ubuntu.
+Antes de executarmos os codigos, iremos verificar a versão do python e a instalação do python3 no ubuntu.
+desde já informo, que os códigos serão executado no ambiente linux/ubuntu.
 
 1 - VERIFICANDO A VERSÃO PYTHON NO UBUNTU:
 
