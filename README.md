@@ -56,3 +56,9 @@ RESOLUÇÃO DAS QUESTÕES:
         12-Após acessar o diretório /Problema 2, execute o Problema2.py
         13-Para executar digite: python3 Problema2.py ./pasta1 ./pasta2
         14-Resultado esperado: ['lista.txt', 'modulo.py']
+
+
+
+     III - PROBLEMA 3:
+
+     
