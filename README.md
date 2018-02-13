@@ -35,7 +35,7 @@ RESOLUÇÃO DAS QUESTÕES:
 
     I - PROBLEMA 1:
 
-        Respondido em arquivo chamado  Problema1.txt
+        Respondido em arquivo chamado  resposta.txt
 
     II - PROBLEMA 2:
 
