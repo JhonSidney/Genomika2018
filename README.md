@@ -78,3 +78,4 @@ RESOLUÇÃO DAS QUESTÕES:
         13-Para executar digite: python3 Problema3.py
 
         Aguarde o download do arquivo completo e logo após o download ele criará o arquivo.zip
+        na pasta do problema3.
