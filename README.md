@@ -52,6 +52,7 @@ RESOLUÇÃO DAS QUESTÕES:
         8- Digite: cd Genomika2018-master/
         9- Digite: ls
         10-Digite: cd Problema2
-        11-Posição esperada do terminal :~/Downloads/Genomika2018-master/Problema2$,continue o pro
-        12-Para executar digite: python3 Problema2.py ./pasta1 ./pasta2
-        13-Resultado esperado: ['lista.txt', 'modulo.py']
+        11-Posição esperada do terminal :~/Downloads/Genomika2018-master/Problema2:$
+        12-Após acessar o diretório /Problema 2, execute o Problema2.py
+        13-Para executar digite: python3 Problema2.py ./pasta1 ./pasta2
+        14-Resultado esperado: ['lista.txt', 'modulo.py']
