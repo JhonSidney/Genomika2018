@@ -61,4 +61,20 @@ RESOLUÇÃO DAS QUESTÕES:
 
      III - PROBLEMA 3:
 
-     
+           Para executar o problema3.py, onde será baixado dados de uma fonte de dados online,
+           que está no formato TXT de forma tabulada e será compactada em um arquivo .zip como
+           no exemplo: hpo_20180101.
+           com base no tutorial anterior do problema 2, iremos seguir apartir do passo 4.
+
+        4- Faça a extração da pasta 'Genomika2018-master' para a pasta /home/user/Downloads.
+        5- Após a extração da pasta, faça a abertura do terminal do seu Ubuntu(ou as teclas Ctrl+Alt+T).
+        6- Após abrir o terminal, para visualizar as pastas digite do comando: "ls"
+        7- Para acessar as pasta você digita os comando "cd" e logo após o nome do diretório. ":$ cd Downloads/
+        8- Digite: cd Genomika2018-master/
+        9- Digite: ls
+        10-Digite: cd Problema3
+        11-Posição esperada do terminal :~/Downloads/Genomika2018-master/Problema3$
+        12-Digite o comando: ls (mensagem esperada: Problema.py)
+        13-Para executar digite: python3 Problema3.py
+
+        Aguarde o download do arquivo completo e logo após o download ele criará o arquivo.zip
