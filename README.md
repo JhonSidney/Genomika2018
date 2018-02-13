@@ -2,8 +2,9 @@
 
 Jhon Sidney
 
-Antes de executarmos os codigos, iremos verificar a versão do python e a instalação do python3 no ubuntu.
-desde já informo, que os códigos serão executado no ambiente linux/ubuntu.
+Antes de executarmos os codigos, iremos verificar a versão do python e caso necessário iremos fazer
+a instalação do python3 no ubuntu.Desde já informo, que os códigos serão executado no ambiente lin-
+ux/ubuntu.
 
 1 - VERIFICANDO A VERSÃO PYTHON NO UBUNTU:
 
@@ -11,7 +12,9 @@ desde já informo, que os códigos serão executado no ambiente linux/ubuntu.
     I  - Abra o terminal do ubuntu (ou as teclas Ctrl+Alt+T).
     II - Digite o comando : python3 --version
         1. Exemplo de mensagem esperada pelo terminal: " python 3.6.3 "
-        2. caso não esteja instalado, siga os passos abaixo.
+        2. Caso não esteja instalado, siga os passos abaixo.
+        3. Para sair do 'root@...' escreva o comando: exit
+        4. Para sair do terminal escreva o comando: exit
 
 2 - INSTAÇÃO DO PYTHON3:
 
@@ -22,6 +25,9 @@ desde já informo, que os códigos serão executado no ambiente linux/ubuntu.
     II  - Digite o comando : sudo su
     III - Logo após insira sua senha
     IV  - Insira o comando : apt-get install python3
+    V   - Depois é somente ir seguindo as instruções do próprio terminal
+    VI  - Após a instação,para sair do 'root@...' escreva o comando: exit
+    VII - Para sair do terminal escreva o comando: exit
 
 
 
