@@ -6,7 +6,7 @@ found = False
 pasta1= sys.argv[1] #recebendo primeiro argumento
 pasta2 = sys.argv[2] #recebendo segundo argumento
 
-if not os.path.isdir(pasta1) and os.path.isdir(pasta2): #verificando se os diretorios existem
+if os.path.exists(pasta1) and os.path.exists(pasta2) == False: #verificando se os diretorios existem
     exit()
 else:
     found = True
