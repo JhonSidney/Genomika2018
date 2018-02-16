@@ -2,28 +2,28 @@ import sys
 import hashlib
 import os
 import shutil
-import zipfile
 import gzip
+import _md5
+import codecs
+
+
 
 
 def getHash(arquivo):
 
-
-
-def descompactar(caminho):
-    caminho = ''+caminho
-    zipado = zipfile.ZipFile(caminho)
-    zipado.extract()
-
+    nome = ''+arquivo
+    hash = hashlib.md5(nome.encode()).hexdigest()
+    return hash
 
 
 
 parametro1 = sys.argv[1]
 parametro2   = sys.argv[2]
 
-if  os.path.exists(parametro1)  and os.path.exists(parametro2) == False:
+if  os.path.exists(parametro1)  and os.path.exists(parametro2) == False: #caso tenha a pasta
     parametro_entrada = parametro1
-    parametro_saida = os.mkdir(parametro2)
+    os.mkdir(parametro2)
+    parametro_saida = parametro2
 
     list = os.listdir(parametro_entrada)
     list2 = os.listdir(parametro_saida)
@@ -34,14 +34,16 @@ if  os.path.exists(parametro1)  and os.path.exists(parametro2) == False:
     while i < len(list):
         file = i
         for file in list:
-            descompactar(parametro_entrada)
             hash1 = getHash(list[i])
             print(hash1)
             list_hash1.append(hash1)
-            shutil.move(list[file], parametro_saida)
+            nome_arquivo = '%s'%list[i]
+            print (nome_arquivo)
+            print (parametro_saida)
+            shutil.move(nome_arquivo, parametro_saida)
 
         for file in list2:
-            hash2 = getHash(list[i])
+            hash2 = getHash(list2[i])
             print(hash2)
             list_hash2.append(hash2)
 
@@ -85,27 +87,4 @@ else:
             print('{%s}',list[i],' foi transferido com sucesso')
         else:
             print('{%s}',list[i],' não foi transferido com sucesso')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
