@@ -82,7 +82,7 @@ RESOLUÇÃO DAS QUESTÕES:
 
 
 
-     v - PROBLEMA 5:
+    V - PROBLEMA 5:
 
         Para executar o script python, onde fará a cópia dos arquivos do diretório de entrada
         para o diretório de saída, onde fará um check de integridade no diretório de saída
