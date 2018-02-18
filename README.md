@@ -79,3 +79,20 @@ RESOLUÇÃO DAS QUESTÕES:
 
         Aguarde o download do arquivo completo e logo após o download ele criará o arquivo.zip
         na pasta do problema3.
+
+
+
+     v - PROBLEMA 5:
+
+        Para executar o script python, onde fará a cópia dos arquivos do diretório de entrada
+        para o diretório de saída, onde fará um check de integridade no diretório de saída
+
+
+        1-Abra o terminal e acesse o diretório especificado abaixo no passo 2:
+        2-Posição esperada do terminal :/Downloads/Genomika2018-master/Problema5
+        3-Digite o comando: ls (mensagem esperada: Problema.py)
+        4-Para executar digite: python3 Problema5.py ./desafio5  ./desafio6
+        5-resultado esperado será a copia dos arquivos na pasta ./desafio6 e
+          imprimir se foi feito com sucesso ou não a cópia.
+
+
